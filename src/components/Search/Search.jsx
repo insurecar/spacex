@@ -10,6 +10,7 @@ export const Search = () => {
   const [showDropdown, setShowDropdown] = useState(false);
   const resultsRef = useRef(null);
   console.log("SHOPDROPDOWN", showDropdown);
+  const [results, setResults] = useState([]);
 
   const handleInput = ({ target: { value } }) => {
     setText(() => value);
@@ -42,6 +43,17 @@ export const Search = () => {
     };
   }, []);
 
+  useEffect(() => {
+    fetch(`http://localhost:3000/searchQuery?q=${text}`)
+      .then((response) => response.json())
+      .then((data) => {
+        const filteredData = data.filter(item => item.title.toLowerCase().startsWith(text.toLowerCase()));
+        console.log(filteredData);
+        setResults(filteredData)
+      })
+      .catch((error) => console.error('Error fetching data:', error));
+  }, [text])
+
   return (
     <div className={styles.searchWrapper}>
       <button className={styles.search}>
@@ -57,7 +69,7 @@ export const Search = () => {
         </div>
         <div className={styles.navigation}></div>
       </button>
-      {showDropdown && <DropdownMenu ref={resultsRef} />}
+      {showDropdown && <DropdownMenu ref={resultsRef} data={results} />}
     </div>
   );
 };
