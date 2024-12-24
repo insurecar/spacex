@@ -1,0 +1,1 @@
+export { listOfHistoryReducer } from "./listOfHistory";

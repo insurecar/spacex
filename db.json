@@ -1,0 +1,206 @@
+{
+    "searchQuery": [
+        {
+          "title": "JavaScript",
+          "id": "1",
+          "visited": false
+        },
+        {
+          "title": "Python",
+          "id": "2",
+          "visited": false
+        },
+        {
+          "title": "Java",
+          "id": "3",
+          "visited": false
+        },
+        {
+          "title": "Ruby",
+          "id": "4",
+          "visited": false
+        },
+        {
+          "title": "PHP",
+          "id": "5",
+          "visited": false
+        },
+        {
+          "title": "C#",
+          "id": "6",
+          "visited": false
+        },
+        {
+          "title": "C++",
+          "id": "7",
+          "visited": false
+        },
+        {
+          "title": "Go",
+          "id": "8",
+          "visited": false
+        },
+        {
+          "title": "Swift",
+          "id": "9",
+          "visited": false
+        },
+        {
+          "title": "TypeScript",
+          "id": "10",
+          "visited": false
+        },
+        {
+          "title": "React",
+          "id": "11",
+          "visited": false
+        },
+        {
+          "title": "Vue",
+          "id": "12",
+          "visited": false
+        },
+        {
+          "title": "Angular",
+          "id": "13",
+          "visited": false
+        },
+        {
+          "title": "Node.js",
+          "id": "14",
+          "visited": false
+        },
+        {
+          "title": "Django",
+          "id": "15",
+          "visited": false
+        },
+        {
+          "title": "Flask",
+          "id": "16",
+          "visited": false
+        },
+        {
+          "title": "Spring",
+          "id": "17",
+          "visited": false
+        },
+        {
+          "title": "Laravel",
+          "id": "18",
+          "visited": false
+        },
+        {
+          "title": "Express.js",
+          "id": "19",
+          "visited": false
+        },
+        {
+          "title": "Next.js",
+          "id": "20",
+          "visited": false
+        }
+    ],      
+    "results": [
+        {
+          "title": "JavaScript",
+          "id": "1",
+          "description": "A dynamic language used for web development to create interactive and dynamic web pages."
+        },
+        {
+          "title": "Python",
+          "id": "2",
+          "description": "A high-level, interpreted programming language known for its readability and ease of use."
+        },
+        {
+          "title": "Java",
+          "id": "3",
+          "description": "A class-based, object-oriented programming language widely used in enterprise applications."
+        },
+        {
+          "title": "Ruby",
+          "id": "4",
+          "description": "A dynamic, object-oriented programming language designed for simplicity and productivity."
+        },
+        {
+          "title": "PHP",
+          "id": "5",
+          "description": "A server-side scripting language used for web development and building dynamic websites."
+        },
+        {
+          "title": "C#",
+          "id": "6",
+          "description": "A modern, object-oriented language developed by Microsoft for building Windows applications."
+        },
+        {
+          "title": "C++",
+          "id": "7",
+          "description": "A high-performance programming language used for system software, game development, and real-time systems."
+        },
+        {
+          "title": "Go",
+          "id": "8",
+          "description": "A statically typed, compiled language designed by Google for scalability and efficiency."
+        },
+        {
+          "title": "Swift",
+          "id": "9",
+          "description": "A powerful programming language developed by Apple for building iOS and macOS applications."
+        },
+        {
+          "title": "TypeScript",
+          "id": "10",
+          "description": "A superset of JavaScript that adds static typing, making it easier to build large-scale applications."
+        },
+        {
+          "title": "React",
+          "id": "11",
+          "description": "A JavaScript library for building user interfaces, primarily for single-page applications."
+        },
+        {
+          "title": "Vue",
+          "id": "12",
+          "description": "A progressive JavaScript framework for building modern web applications and UIs."
+        },
+        {
+          "title": "Angular",
+          "id": "13",
+          "description": "A platform for building mobile and desktop web applications using TypeScript."
+        },
+        {
+          "title": "Node.js",
+          "id": "14",
+          "description": "A JavaScript runtime built on Chrome's V8 engine, used for building scalable network applications."
+        },
+        {
+          "title": "Django",
+          "id": "15",
+          "description": "A high-level Python web framework that encourages rapid development and clean, pragmatic design."
+        },
+        {
+          "title": "Flask",
+          "id": "16",
+          "description": "A lightweight Python web framework used for building small to medium-sized web applications."
+        },
+        {
+          "title": "Spring",
+          "id": "17",
+          "description": "A Java-based framework that simplifies the development of Java applications by providing comprehensive infrastructure support."
+        },
+        {
+          "title": "Laravel",
+          "id": "18",
+          "description": "A PHP framework for building web applications with elegant syntax and an expressive ecosystem."
+        },
+        {
+          "title": "Express.js",
+          "id": "19",
+          "description": "A fast, unopinionated, minimalist web framework for Node.js."
+        },
+        {
+          "title": "Next.js",
+          "id": "20",
+          "description": "A React framework that enables server-side rendering and static site generation."
+        }
+      ]
+}
