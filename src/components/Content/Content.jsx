@@ -4,14 +4,18 @@ import { useSelector } from "react-redux";
 
 export const Content = () => {
   const data = useSelector(({ contentReducer }) => contentReducer.content);
-  console.log("asdasd", data);
-
+  const handleLink = (id) => {};
   return (
     <ul className={styles.content}>
       {data?.map((item) => (
         <li key={item.id}>
           <h3>
-            <a target="__blank" href={item.link}>
+            <a
+              className={styles.title}
+              target="__blank"
+              href={item.link}
+              onClick={handleLink}
+            >
               {item.title}
             </a>
           </h3>

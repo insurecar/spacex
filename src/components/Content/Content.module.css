@@ -1,4 +1,7 @@
 .content{
-    background: green;
     list-style: none;
+}
+
+.title{
+    text-decoration: none;
 }
