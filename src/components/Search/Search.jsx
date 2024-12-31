@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { DropdownMenu } from "..";
 import { SearchIcon, DeleteIcon } from "../icons";
-import { useSelector, useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 import styles from "./Search.module.css";
 import { getQuery } from "../../store/actions/getQuery";
 
@@ -10,12 +10,10 @@ import cn from "classnames";
 export const Search = () => {
   const [text, setText] = useState("");
   const [showDropdown, setShowDropdown] = useState(false);
-  const [results, setResults] = useState([]);
   const dispatch = useDispatch();
 
   const handleInput = ({ target: { value } }) => {
     setText(() => value);
-    console.log("asdasdasd");
 
     dispatch(getQuery(value));
   };
@@ -49,7 +47,7 @@ export const Search = () => {
         </div>
         <div className={styles.navigation}></div>
       </button>
-      {showDropdown && <DropdownMenu data={results} />}
+      {showDropdown && <DropdownMenu />}
     </div>
   );
 };
