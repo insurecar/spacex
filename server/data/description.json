@@ -1,304 +1,371 @@
 [
-    {
-        "title": "JavaScript for modern web development",
-        "id": "1",
-        "visited": false,
-        "description": "JavaScript is the foundation of modern web development, enabling dynamic interactions on websites. It allows developers to build responsive, interactive web applications that update in real-time without the need for a page reload. JavaScript is used for both client-side and server-side programming, with frameworks like React and Angular being popular choices for creating dynamic user interfaces. Node.js allows JavaScript to be used on the server side, making it possible to build full-stack applications using one language. The language's versatility, along with its large ecosystem of libraries and tools, makes it essential for web developers."
-    },
-    {
-        "title": "JavaScript for interactive user experiences",
-        "id": "2",
-        "visited": false,
-        "description": "JavaScript is the key to creating interactive and engaging user experiences on the web. It allows developers to respond to user actions such as clicks, keystrokes, and mouse movements, enabling dynamic content updates without refreshing the page. JavaScript can be used to manipulate the Document Object Model (DOM), making it possible to change the content and structure of web pages in real-time. With frameworks like React and Vue.js, developers can build component-based architectures that enhance user experience and streamline development. JavaScript’s ability to power real-time interactions is crucial for modern web applications."
-    },
-    {
-        "title": "JavaScript powering dynamic frontends",
-        "id": "3",
-        "visited": false,
-        "description": "JavaScript is indispensable for building dynamic front-end applications. It allows for real-time updates and responsive user interfaces, making it essential for building modern websites. With libraries and frameworks like React, Angular, and Vue, JavaScript empowers developers to create single-page applications (SPAs), where the content updates dynamically without page reloads. This leads to smoother and faster user experiences. JavaScript also integrates with APIs, allowing developers to pull data dynamically and render it in a seamless, interactive manner. As a result, JavaScript continues to be the backbone of modern front-end development."
-    },
-    {
-        "title": "Python for data analysis and AI",
-        "id": "4",
-        "visited": false,
-        "description": "Python has become one of the most popular languages for data analysis and artificial intelligence (AI). With libraries like Pandas, NumPy, and Matplotlib, Python makes it easy to handle large datasets, perform statistical analysis, and create meaningful visualizations. For AI, Python supports powerful libraries like TensorFlow, Keras, and PyTorch, enabling the development of machine learning models and deep learning networks. Python’s clean and readable syntax makes it ideal for both beginners and experts in data science. The wide array of tools available makes Python a go-to language for data scientists and AI researchers."
-    },
-    {
-        "title": "Python for machine learning enthusiasts",
-        "id": "5",
-        "visited": false,
-        "description": "Python is a top choice for machine learning enthusiasts due to its extensive libraries and frameworks. Libraries such as scikit-learn and TensorFlow provide a comprehensive set of tools to implement machine learning algorithms, from simple linear regression to complex neural networks. Python’s simple syntax and ease of integration with data manipulation libraries like Pandas make it an efficient language for machine learning tasks. Whether you’re interested in supervised learning, unsupervised learning, or deep learning, Python provides the resources to get started quickly and efficiently. Its popularity and widespread use in the machine learning community make Python an essential tool for any aspiring AI developer."
-    },
-    {
-        "title": "Python for beginners in programming",
-        "id": "6",
-        "visited": false,
-        "description": "Python is often recommended as the first programming language for beginners because of its simple syntax and readability. Its high-level nature allows new programmers to focus on learning programming concepts rather than dealing with complex language rules. Python supports object-oriented, imperative, and functional programming paradigms, giving beginners a solid foundation in different coding styles. It’s a versatile language, ideal for web development, data analysis, machine learning, and automation. Additionally, Python’s large community provides excellent resources and support, making it easy for beginners to find tutorials and examples to help them learn."
-    },
-    {
-        "title": "Java for enterprise-level applications",
-        "id": "7",
-        "visited": false,
-        "description": "Java is widely used for building large-scale enterprise applications due to its robustness, scalability, and security features. It has a long track record of powering mission-critical applications in industries like finance, healthcare, and telecommunications. Java’s platform independence, through the use of the Java Virtual Machine (JVM), makes it possible to write code once and run it anywhere, which is essential for enterprise systems. Java’s strong typing system, multithreading capabilities, and mature frameworks like Spring make it a popular choice for enterprise-grade applications that require high availability, reliability, and security."
-    },
-    {
-        "title": "Java for building scalable systems",
-        "id": "8",
-        "visited": false,
-        "description": "Java is ideal for building scalable systems that need to handle large volumes of data and traffic. Its ability to efficiently handle multithreading, asynchronous processing, and high-concurrency operations allows developers to build systems that can scale horizontally across multiple servers. Java's support for distributed systems, cloud computing, and microservices architecture ensures that applications can grow to meet increasing demand without sacrificing performance. Frameworks like Spring Boot and Hibernate further enhance Java’s scalability, making it a top choice for businesses that need to build highly scalable solutions."
-    },
-    {
-        "title": "Java for cross-platform development",
-        "id": "9",
-        "visited": false,
-        "description": "Java’s cross-platform capabilities are one of its most significant strengths. By leveraging the Java Virtual Machine (JVM), Java programs can run on any platform that supports the JVM, making it an excellent choice for building cross-platform applications. This feature is particularly valuable for mobile development, as Java is the primary language for Android applications. Java also supports building desktop applications, web services, and even embedded systems, allowing developers to create applications that work seamlessly across different operating systems. Java's versatility and platform independence make it a reliable option for building cross-platform solutions."
-    },
-    {
-        "title": "Ruby for elegant coding solutions",
-        "id": "10",
-        "visited": false,
-        "description": "Ruby is a dynamic, object-oriented language known for its elegant and readable syntax. It was designed with developer productivity in mind, allowing programmers to write concise and maintainable code. Ruby’s philosophy emphasizes simplicity and flexibility, which makes it an excellent choice for rapid prototyping and development. The Ruby on Rails framework, in particular, has made Ruby a popular language for web development, providing a set of conventions that help developers write clean, efficient code. Ruby’s focus on readability and ease of use has earned it a devoted following among developers who value productivity and elegance in their coding style."
-    },
-    {
-        "title": "Ruby for developing web applications",
-        "id": "11",
-        "visited": false,
-        "description": "Ruby is a powerful programming language for developing web applications, particularly when paired with the Ruby on Rails framework. Rails follows the convention over configuration philosophy, which speeds up development and encourages best practices. Ruby’s concise syntax and focus on developer happiness make it an attractive choice for web developers looking for an easy-to-understand language with a rich ecosystem. Rails, with its built-in tools and libraries, helps developers quickly implement features like user authentication, database migrations, and form handling. Ruby on Rails is often used for building scalable, high-performance web applications."
-    },
-    {
-        "title": "Ruby popularized by the Rails framework",
-        "id": "12",
-        "visited": false,
-        "description": "Ruby became widely popular due to the Ruby on Rails framework, which revolutionized web development with its simplicity and developer-friendly tools. Rails emphasizes convention over configuration, reducing the amount of decision-making required by developers and speeding up development. With built-in tools for testing, debugging, and database management, Rails allows developers to focus on writing features instead of worrying about infrastructure. Its popularity soared because it made it easier to create powerful web applications with less code. As a result, Ruby on Rails continues to be a favored choice for startups and companies building web applications."
-    },
-    {
-        "title": "PHP for dynamic web pages",
-        "id": "13",
-        "visited": false,
-        "description": "PHP is a widely-used scripting language for creating dynamic web pages. It is especially popular for server-side programming and can generate dynamic content based on user input or other external data. PHP integrates well with databases like MySQL, allowing developers to create data-driven web applications easily. It is embedded within HTML and can process forms, send emails, and manage sessions, making it a powerful tool for building dynamic, interactive websites. PHP is also the core language behind content management systems like WordPress, which powers millions of websites worldwide."
-    },
-    {
-        "title": "PHP for powering content management systems",
-        "id": "14",
-        "visited": false,
-        "description": "PHP is the backbone of many content management systems (CMS), with WordPress, Joomla, and Drupal being some of the most popular examples. PHP’s ability to interact seamlessly with databases like MySQL makes it an ideal choice for building CMS platforms that need to handle dynamic content. PHP’s simplicity and wide range of functions enable rapid development of CMS-driven websites, with built-in features for managing pages, posts, media, and user roles. The availability of numerous libraries and frameworks further extends PHP’s capabilities, making it the go-to language for web development in the CMS space."
-    },
-    {
-        "title": "PHP for quick server-side scripting",
-        "id": "15",
-        "visited": false,
-        "description": "PHP is a highly efficient language for quick server-side scripting. It is widely used to build dynamic websites and applications that rely on server-side processing. PHP allows developers to rapidly process data from forms, handle database queries, and manage user authentication with ease. Its simple syntax makes it easy to write and maintain, and its ability to integrate seamlessly with HTML allows developers to generate dynamic content on web pages. PHP’s versatility and speed make it the language of choice for building fast, responsive web applications that require server-side scripting."
-    },
-    {
-        "title": "C# for game and app development",
-        "id": "16",
-        "visited": false,
-        "description": "C# is a popular language for developing both games and applications. It is widely used in game development, particularly with the Unity game engine, which enables developers to create 2D and 3D games for multiple platforms. C# is also used for building desktop and mobile applications, offering powerful features such as garbage collection, strong typing, and integration with the .NET framework. Its flexibility allows developers to create a wide variety of applications, from console games to enterprise-level business applications. C#’s balance of performance and ease of use makes it a top choice for developers in the gaming and software development industries."
-    },
-    {
-        "title": "C# for Windows application development",
-        "id": "17",
-        "visited": false,
-        "description": "C# is a prime language for developing Windows applications, thanks to its deep integration with the .NET framework. With tools like Visual Studio and frameworks such as WPF (Windows Presentation Foundation) and WinForms, developers can quickly build desktop applications that take full advantage of the Windows operating system’s capabilities. C# allows for the creation of applications with rich user interfaces, multi-threading, and high performance. Additionally, its strong type system and object-oriented features make it a robust choice for creating enterprise-grade applications with complex business logic."
-    },
-    {
-        "title": "C# for scalable web services",
-        "id": "18",
-        "visited": false,
-        "description": "C# is a great choice for building scalable web services, especially when used with the ASP.NET framework. ASP.NET allows developers to create powerful, high-performance web applications and RESTful APIs that can handle large volumes of traffic. C# provides the necessary features for building secure, efficient web services, including strong typing, exception handling, and advanced debugging tools. With the rise of microservices and cloud computing, C# has become an essential tool for developers looking to create scalable, distributed systems that can grow with business needs."
-    },
-    {
-        "title": "Swift for iOS app development",
-        "id": "19",
-        "visited": false,
-        "description": "Swift is the primary programming language for developing iOS applications, offering powerful features like memory safety, concurrency, and functional programming support. Swift was designed by Apple to be fast, modern, and easy to use, with a syntax that is both readable and expressive. Swift is optimized for building applications that run smoothly on Apple’s iOS devices, including iPhones, iPads, and Apple Watches. Its ability to work seamlessly with Objective-C code, as well as its support for advanced features like SwiftUI for building user interfaces, makes it an ideal choice for developers looking to create robust, high-performance iOS applications."
-    },
-    {
-        "title": "Swift for modern mobile app development",
-        "id": "20",
-        "visited": false,
-        "description": "Swift is designed for building modern mobile applications for Apple’s ecosystem, including iOS, macOS, watchOS, and tvOS. Its performance is on par with C++, while offering a much more readable and maintainable syntax. Swift integrates with the Cocoa and Cocoa Touch frameworks, allowing developers to take full advantage of the native iOS and macOS APIs. Its powerful features, like optionals, closures, and automatic memory management, make it a great choice for building mobile apps that are fast, reliable, and easy to scale. Swift’s simplicity, combined with its strong performance, makes it a top language for iOS app development."
-    },
-    {
-        "title": "Swift for safe and fast mobile apps",
-        "id": "21",
-        "visited": false,
-        "description": "Swift is an excellent language for creating safe and fast mobile applications for Apple's ecosystem. With its emphasis on memory safety, Swift minimizes common errors like null pointer dereferencing, which enhances security and stability. Its performance is optimized for mobile devices, making it a great choice for apps that require high performance and efficiency. Swift’s clean syntax also enables developers to write concise and expressive code, allowing them to develop apps faster. Coupled with the vast ecosystem of frameworks and libraries available through Xcode, Swift is perfect for building robust mobile applications."
-    },
-    {
-        "title": "C++ for system programming",
-        "id": "22",
-        "visited": false,
-        "description": "C++ is a powerful language widely used for system programming, where direct manipulation of hardware and high performance are required. Its low-level capabilities make it ideal for operating systems, device drivers, and embedded systems. C++ offers fine-grained control over system resources, memory management, and hardware interfaces, making it an excellent choice for building high-performance applications that need to run efficiently on various hardware platforms. It is also commonly used in the development of games and applications that demand high-speed performance, such as real-time simulations."
-    },
-    {
-        "title": "C++ for high-performance applications",
-        "id": "23",
-        "visited": false,
-        "description": "C++ is well-known for its ability to build high-performance applications that require real-time processing, complex calculations, or resource-intensive tasks. Its low-level memory management and direct access to hardware make it suitable for applications in fields like gaming, robotics, and finance. C++’s powerful features, including object-oriented programming, templates, and exception handling, make it a versatile language for developing everything from high-frequency trading systems to simulation software. If performance is the primary concern, C++ is often the language of choice."
-    },
-    {
-        "title": "C++ for game development",
-        "id": "24",
-        "visited": false,
-        "description": "C++ is a dominant language in the game development industry due to its performance and control over hardware. It is widely used with popular game engines such as Unreal Engine, allowing developers to create complex, graphically intensive games. C++’s memory management, low-level access to hardware, and high execution speed enable the creation of games that run efficiently even in high-demand environments. Its compatibility with modern gaming technologies, like 3D rendering and physics simulation, has made it a top choice for developers looking to build high-performance games."
-    },
-    {
-        "title": "C++ for embedded systems",
-        "id": "25",
-        "visited": false,
-        "description": "C++ is extensively used in embedded systems, where efficiency and control over hardware are critical. The language’s ability to interact directly with hardware components makes it ideal for creating firmware and embedded applications for devices like microcontrollers, sensors, and IoT devices. With C++, developers can write code that interacts with hardware efficiently while maintaining a high level of abstraction, making it easier to manage complex embedded projects. Its performance makes it a popular choice for applications where resources like memory and processing power are limited."
-    },
-    {
-        "title": "SQL for relational database management",
-        "id": "26",
-        "visited": false,
-        "description": "SQL (Structured Query Language) is the standard language for managing and manipulating relational databases. SQL allows developers to create, read, update, and delete (CRUD) data in relational database systems like MySQL, PostgreSQL, and Microsoft SQL Server. It provides powerful querying capabilities, enabling users to filter, sort, and aggregate data across multiple tables with complex joins and subqueries. SQL is essential for applications that require storing and retrieving large amounts of structured data, making it a key skill for developers working with databases."
-    },
-    {
-        "title": "SQL for data analysis and reporting",
-        "id": "27",
-        "visited": false,
-        "description": "SQL is widely used for data analysis and reporting, allowing analysts to extract and manipulate data from relational databases. Its ability to aggregate, filter, and join large datasets makes it indispensable for tasks such as business intelligence and data reporting. SQL is used to generate reports, identify trends, and summarize key business metrics from large datasets. Analysts and data scientists use SQL queries to pull relevant information from complex databases and present it in a format that is actionable for decision-making. SQL’s importance in data-driven decision-making cannot be overstated."
-    },
-    {
-        "title": "SQL for data-driven applications",
-        "id": "28",
-        "visited": false,
-        "description": "SQL is critical for developing data-driven applications, where structured data is central to the application’s functionality. Whether it's an e-commerce platform, financial application, or content management system, SQL is often used to interact with the backend database, retrieving and storing data based on user interactions. It allows applications to query databases for specific records, perform calculations, and manipulate data, enabling them to offer personalized experiences and manage large amounts of information efficiently. SQL’s role in data management makes it an essential skill for backend developers."
-    },
-    {
-        "title": "Go for cloud-native development",
-        "id": "29",
-        "visited": false,
-        "description": "Go (or Golang) is a statically typed, compiled language designed for cloud-native development and building scalable, high-performance systems. Its simplicity and efficiency make it ideal for creating microservices, APIs, and web servers that need to handle large amounts of concurrent traffic. Go’s lightweight concurrency model, via goroutines, allows developers to write highly concurrent code that performs well in cloud environments. Its support for cloud-native technologies such as Kubernetes and Docker has made Go a top choice for developing scalable and distributed cloud applications."
-    },
-    {
-        "title": "Go for microservices architecture",
-        "id": "30",
-        "visited": false,
-        "description": "Go is an ideal language for building microservices, where scalability and performance are essential. Its simplicity and lightweight concurrency model enable developers to create fast and efficient microservices that can run independently, communicate with other services via APIs, and scale horizontally as needed. Go’s straightforward syntax and lack of dependencies make it easy to deploy and maintain microservices in production environments. With strong support for cloud platforms and containerization tools like Kubernetes and Docker, Go is a popular choice for developers working with modern microservices architectures."
-    },
-    {
-        "title": "Go for efficient backend systems",
-        "id": "31",
-        "visited": false,
-        "description": "Go is designed to build fast and efficient backend systems, making it a go-to language for web services and cloud infrastructure. Its simplicity, speed, and support for concurrency make it well-suited for high-performance applications that need to handle thousands of requests per second. Go's compiled nature ensures that applications run quickly and efficiently, with minimal resource usage. Additionally, Go’s strong standard library and built-in tools for testing, profiling, and documentation make it a robust choice for backend development, particularly for building APIs, web servers, and distributed systems."
-    },
-    {
-        "title": "Rust for system-level programming",
-        "id": "32",
-        "visited": false,
-        "description": "Rust is a systems programming language focused on safety, performance, and concurrency. It is designed to provide memory safety without needing a garbage collector, making it ideal for system-level programming where low-level hardware control and high performance are required. Rust is increasingly popular for writing operating systems, device drivers, and other performance-critical software. Its ownership model and strict compiler checks ensure that memory errors like null pointer dereferencing and buffer overflows are avoided, making Rust an attractive alternative to C and C++ for low-level programming tasks."
-    },
-    {
-        "title": "Rust for performance-critical applications",
-        "id": "33",
-        "visited": false,
-        "description": "Rust is ideal for developing performance-critical applications where speed and memory efficiency are key concerns. Its ability to provide low-level control over system resources, coupled with its guarantees of memory safety, makes it a strong contender for building high-performance systems that need to run on resource-constrained devices or handle large amounts of data. Rust’s ownership system ensures that developers can write safe and efficient code, free from common bugs such as memory leaks and race conditions, making it particularly suitable for applications in fields like finance, game development, and networking."
-    },
-    {
-        "title": "Rust for web assembly and browser applications",
-        "id": "34",
-        "visited": false,
-        "description": "Rust’s ability to compile to WebAssembly (WASM) makes it an excellent choice for building fast, browser-based applications. WebAssembly enables developers to run high-performance code in web browsers, and Rust’s emphasis on memory safety and performance makes it a top language for compiling to WASM. With Rust, developers can build interactive web applications that run efficiently in the browser, performing computationally intensive tasks without sacrificing performance. This opens up new possibilities for web development, where performance was traditionally constrained by JavaScript's limitations."
-    },
-    {
-        "title": "JavaScript for full-stack web development",
-        "id": "35",
-        "visited": false,
-        "description": "JavaScript has become the go-to language for full-stack web development, enabling developers to use a single language for both front-end and back-end code. With frameworks like Node.js for the server-side and React, Angular, or Vue for the client-side, developers can build highly interactive and dynamic web applications. JavaScript’s versatility allows developers to work with both the server and client sides of web applications, making it a perfect fit for building full-stack applications. By using JavaScript for both ends of development, teams can streamline their workflows and reduce the complexity of managing different programming languages."
-    },
-    {
-        "title": "JavaScript for real-time applications",
-        "id": "36",
-        "visited": false,
-        "description": "JavaScript is essential for building real-time applications that require instant updates and seamless communication between the client and server. Technologies like WebSockets and libraries such as Socket.io make it possible to establish a persistent connection between the client and server, enabling real-time features like chat, notifications, and live updates. JavaScript’s ability to handle asynchronous operations with callbacks and promises makes it well-suited for real-time data processing, ensuring that web applications can deliver live, interactive experiences to users."
-    },
-    {
-        "title": "HTML5 for modern web structure",
-        "id": "37",
-        "visited": false,
-        "description": "HTML5 is the backbone of modern web development, providing the fundamental structure for web pages. It includes new elements and APIs that enable rich multimedia experiences, responsive layouts, and more accessible websites. HTML5 provides semantic elements like <article>, <section>, and <nav>, which improve the readability and accessibility of web pages. The new audio and video elements allow developers to embed multimedia content directly into web pages without requiring third-party plugins. HTML5 is also optimized for mobile devices, ensuring that websites are responsive and work well across different screen sizes."
-    },
-    {
-        "title": "HTML5 for interactive content",
-        "id": "38",
-        "visited": false,
-        "description": "HTML5 has revolutionized how interactive content is embedded into web pages. With the introduction of the <canvas> element, developers can create dynamic graphics and animations directly within the browser without the need for plugins like Flash. HTML5 also introduced the <video> and <audio> tags, making it easier to integrate multimedia content without relying on third-party players. Its support for geolocation, local storage, and offline capabilities allows developers to build web applications that are more engaging and feature-rich. HTML5 is an essential tool for creating modern, interactive websites."
-    },
-    {
-        "title": "HTML5 for responsive design",
-        "id": "39",
-        "visited": false,
-        "description": "HTML5 is an essential component for building responsive websites that adapt to different screen sizes and devices. It works hand in hand with CSS3 and JavaScript to create flexible layouts that look great on desktops, tablets, and smartphones. The <meta> tag for viewport control and the ability to use CSS media queries make it easy to design websites that provide an optimal viewing experience across different devices. HTML5’s emphasis on semantic markup and accessibility ensures that websites are both functional and user-friendly, regardless of the platform they are viewed on."
-    },
-    {
-        "title": "CSS3 for styling modern websites",
-        "id": "40",
-        "visited": false,
-        "description": "CSS3 is the latest version of the Cascading Style Sheets language and is used to style modern websites. It introduces new features like animations, transitions, and gradients, which make it easier for developers to create visually appealing and interactive websites. CSS3 also includes advanced layout techniques, such as Flexbox and Grid, that allow developers to create responsive and complex designs without relying on floats or JavaScript. With CSS3, designers can add effects like shadowing, rounded corners, and opacity changes, making it a powerful tool for enhancing the look and feel of web applications."
-    },
-    {
-        "title": "CSS3 for responsive web design",
-        "id": "41",
-        "visited": false,
-        "description": "CSS3 has revolutionized responsive web design by introducing powerful layout techniques like Flexbox and CSS Grid. These technologies allow developers to create fluid and adaptive layouts that adjust to different screen sizes without complex media queries. The flexibility and simplicity offered by these tools make it easier to design websites that look great on any device, from mobile phones to desktops. CSS3's support for media queries also helps tailor styles for specific device types, ensuring a seamless experience across a variety of platforms and screen resolutions."
-    },
-    {
-        "title": "CSS3 for animations and transitions",
-        "id": "42",
-        "visited": false,
-        "description": "CSS3 brought animations and transitions to the forefront of web development, enabling developers to create smooth and visually appealing effects directly in the browser without relying on JavaScript. Animations allow elements to change from one style to another over a set duration, while transitions enable changes to occur gradually when a user interacts with an element. These features can be used to add dynamic behavior to websites, making user interfaces more engaging. With CSS3, designers can create subtle animations like hover effects or more complex motion designs, enhancing the user experience."
-    },
-    {
-        "title": "React for building user interfaces",
-        "id": "43",
-        "visited": false,
-        "description": "React is a JavaScript library for building fast and interactive user interfaces, especially for single-page applications. React allows developers to create reusable UI components and manage the state of an application efficiently. It uses a virtual DOM to optimize rendering performance, ensuring that updates are made only to the parts of the UI that have changed, rather than re-rendering the entire page. React's component-based architecture and declarative approach to UI development make it a popular choice for building complex and scalable web applications."
-    },
-    {
-        "title": "React for building dynamic web applications",
-        "id": "44",
-        "visited": false,
-        "description": "React excels in building dynamic web applications by providing a declarative approach to rendering and managing the user interface. By using React's component system, developers can efficiently build dynamic pages that respond to user interactions in real-time. React’s state management and lifecycle methods help keep track of data and handle updates, while its virtual DOM ensures that only the necessary changes are applied to the actual DOM, improving performance. With the help of tools like React Router and Redux, React can also handle routing and complex state management, making it ideal for dynamic and interactive web apps."
-    },
-    {
-        "title": "React for mobile app development",
-        "id": "45",
-        "visited": false,
-        "description": "React Native, a framework built on top of React, enables developers to use JavaScript to build native mobile applications for iOS and Android. React Native provides a rich set of pre-built components that are translated to native platform components, delivering a near-native experience for users. By leveraging React's component-based architecture and hot-reloading features, developers can rapidly build and iterate on mobile apps. React Native allows for code reuse across platforms, reducing development time and costs, making it a popular choice for mobile app development."
-    },
-    {
-        "title": "Node.js for server-side JavaScript",
-        "id": "46",
-        "visited": false,
-        "description": "Node.js is a runtime environment that allows developers to run JavaScript on the server-side, enabling full-stack JavaScript development. By using Node.js, developers can build fast and scalable network applications that handle a large number of simultaneous connections. Node.js is built on a non-blocking, event-driven architecture, making it ideal for I/O-heavy applications like web servers, real-time communication apps, and APIs. Its extensive package ecosystem via npm makes it easy to integrate third-party libraries, allowing for rapid development and deployment of server-side applications."
-    },
-    {
-        "title": "Node.js for building APIs",
-        "id": "47",
-        "visited": false,
-        "description": "Node.js is a great choice for building APIs due to its non-blocking I/O model and high scalability. It allows developers to create lightweight and fast RESTful APIs that can handle large volumes of requests simultaneously. With frameworks like Express.js, developers can easily structure their API endpoints and manage routing, while Node.js ensures that the API responds quickly, even under heavy load. Node.js also integrates well with databases, allowing developers to easily interact with NoSQL or relational databases for data storage. Its efficient event loop and async capabilities make it a powerful tool for building modern web APIs."
-    },
-    {
-        "title": "Vue.js for building user interfaces",
-        "id": "48",
-        "visited": false,
-        "description": "Vue.js is a progressive JavaScript framework used to build user interfaces and single-page applications. Vue provides a simple and flexible API, allowing developers to integrate it into existing projects or use it to build new, sophisticated web applications. Its reactive data-binding system makes it easy to manage the application state, while its component-based architecture allows developers to build reusable and modular UI elements. Vue’s lightweight nature and ease of integration with other libraries make it a popular choice for building modern, fast, and scalable web applications."
-    },
-    {
-        "title": "Vue.js for building single-page applications",
-        "id": "49",
-        "visited": false,
-        "description": "Vue.js is a popular framework for building single-page applications (SPAs), where content is loaded dynamically without refreshing the entire page. With Vue’s powerful routing system and state management libraries like Vuex, developers can create seamless, fast, and interactive user experiences. Vue’s reactivity system ensures that the application updates automatically when the underlying data changes, improving user experience by minimizing page reloads. The simplicity and flexibility of Vue make it an excellent choice for developers looking to build modern SPAs without the complexity of other frameworks."
-    },
-    {
-        "title": "Angular for building dynamic web applications",
-        "id": "50",
-        "visited": false,
-        "description": "Angular is a powerful framework for building dynamic, data-driven web applications. It is built around the Model-View-Controller (MVC) architecture and provides a complete set of tools for developers, including two-way data binding, dependency injection, and powerful routing mechanisms. Angular makes it easy to build complex, enterprise-level applications with its modular structure, which allows for code reuse and easier maintenance. With its comprehensive set of features, Angular is ideal for developing dynamic applications that require robust data management and user interactions."
-    },
+   
+
+
+
+    
+        {
+            "title": "JavaScript for modern web development",
+            "id": "1",
+            "visited": false,
+            "description": "JavaScript is the foundation of modern web development...",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        },
+        {
+            "title": "JavaScript for interactive user experiences",
+            "id": "2",
+            "visited": false,
+            "description": "JavaScript is the key to creating interactive and engaging user experiences...",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        },
+        {
+            "title": "JavaScript powering dynamic frontends",
+            "id": "3",
+            "visited": false,
+            "description": "JavaScript is indispensable for building dynamic front-end applications...",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        },
+        {
+            "title": "Python for data analysis and AI",
+            "id": "4",
+            "visited": false,
+            "description": "Python has become one of the most popular languages for data analysis and artificial intelligence...",
+            "link": "https://www.python.org"
+        },
+        {
+            "title": "Python for machine learning enthusiasts",
+            "id": "5",
+            "visited": false,
+            "description": "Python is a top choice for machine learning enthusiasts due to its extensive libraries...",
+            "link": "https://www.python.org"
+        },
+        {
+            "title": "Python for beginners in programming",
+            "id": "6",
+            "visited": false,
+            "description": "Python is often recommended as the first programming language for beginners...",
+            "link": "https://www.python.org"
+        },
+        {
+            "title": "Java for enterprise-level applications",
+            "id": "7",
+            "visited": false,
+            "description": "Java is widely used for building large-scale enterprise applications...",
+            "link": "https://www.oracle.com/java/"
+        },
+        {
+            "title": "Java for building scalable systems",
+            "id": "8",
+            "visited": false,
+            "description": "Java is ideal for building scalable systems that need to handle large volumes of data...",
+            "link": "https://www.oracle.com/java/"
+        },
+        {
+            "title": "Java for cross-platform development",
+            "id": "9",
+            "visited": false,
+            "description": "Java’s cross-platform capabilities are one of its most significant strengths...",
+            "link": "https://www.oracle.com/java/"
+        },
+        {
+            "title": "Ruby for elegant coding solutions",
+            "id": "10",
+            "visited": false,
+            "description": "Ruby is a dynamic, object-oriented language known for its elegant and readable syntax...",
+            "link": "https://www.ruby-lang.org/en/"
+        },
+        
+
+
+
+
+
+
+        {
+            "title": "Ruby for developing web applications",
+            "id": "11",
+            "visited": false,
+            "description": "Ruby is a powerful programming language for developing web applications, particularly when paired with the Ruby on Rails framework...",
+            "link": "https://www.ruby-lang.org/en/"
+        },
+        {
+            "title": "Ruby popularized by the Rails framework",
+            "id": "12",
+            "visited": false,
+            "description": "Ruby became widely popular due to the Ruby on Rails framework, which revolutionized web development with its simplicity and developer-friendly tools...",
+            "link": "https://www.ruby-lang.org/en/"
+        },
+        {
+            "title": "PHP for dynamic web pages",
+            "id": "13",
+            "visited": false,
+            "description": "PHP is a widely-used scripting language for creating dynamic web pages...",
+            "link": "https://www.php.net/"
+        },
+        {
+            "title": "PHP for powering content management systems",
+            "id": "14",
+            "visited": false,
+            "description": "PHP is the backbone of many content management systems (CMS), with WordPress, Joomla, and Drupal being some of the most popular examples...",
+            "link": "https://www.php.net/"
+        },
+        {
+            "title": "PHP for quick server-side scripting",
+            "id": "15",
+            "visited": false,
+            "description": "PHP is a highly efficient language for quick server-side scripting...",
+            "link": "https://www.php.net/"
+        },
+        {
+            "title": "C# for game and app development",
+            "id": "16",
+            "visited": false,
+            "description": "C# is a popular language for developing both games and applications...",
+            "link": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+        },
+        {
+            "title": "C# for Windows application development",
+            "id": "17",
+            "visited": false,
+            "description": "C# is a prime language for developing Windows applications, thanks to its deep integration with the .NET framework...",
+            "link": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+        },
+        {
+            "title": "C# for scalable web services",
+            "id": "18",
+            "visited": false,
+            "description": "C# is a great choice for building scalable web services, especially when used with the ASP.NET framework...",
+            "link": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+        },
+        {
+            "title": "Swift for iOS app development",
+            "id": "19",
+            "visited": false,
+            "description": "Swift is the primary programming language for developing iOS applications...",
+            "link": "https://developer.apple.com/swift/"
+        },
+        {
+            "title": "Swift for modern mobile app development",
+            "id": "20",
+            "visited": false,
+            "description": "Swift is designed for building modern mobile applications for Apple’s ecosystem...",
+            "link": "https://developer.apple.com/swift/"
+        },
+        {
+            "title": "Swift for safe and fast mobile apps",
+            "id": "21",
+            "visited": false,
+            "description": "Swift is an excellent language for creating safe and fast mobile applications for Apple's ecosystem...",
+            "link": "https://developer.apple.com/swift/"
+        },
+        {
+            "title": "C++ for system programming",
+            "id": "22",
+            "visited": false,
+            "description": "C++ is a powerful language widely used for system programming, where direct manipulation of hardware and high performance are required...",
+            "link": "https://isocpp.org/"
+        },
+        {
+            "title": "C++ for high-performance applications",
+            "id": "23",
+            "visited": false,
+            "description": "C++ is well-known for its ability to build high-performance applications that require real-time processing...",
+            "link": "https://isocpp.org/"
+        },
+        {
+            "title": "C++ for game development",
+            "id": "24",
+            "visited": false,
+            "description": "C++ is a dominant language in the game development industry due to its performance and control over hardware...",
+            "link": "https://isocpp.org/"
+        },
+        {
+            "title": "C++ for embedded systems",
+            "id": "25",
+            "visited": false,
+            "description": "C++ is extensively used in embedded systems, where efficiency and control over hardware are critical...",
+            "link": "https://isocpp.org/"
+        },
+        {
+            "title": "SQL for relational database management",
+            "id": "26",
+            "visited": false,
+            "description": "SQL (Structured Query Language) is the standard language for managing and manipulating relational databases...",
+            "link": "https://www.sql.org/"
+        },
+        {
+            "title": "SQL for data analysis and reporting",
+            "id": "27",
+            "visited": false,
+            "description": "SQL is widely used for data analysis and reporting, allowing analysts to extract and manipulate data from relational databases...",
+            "link": "https://www.sql.org/"
+        },
+        {
+            "title": "SQL for data-driven applications",
+            "id": "28",
+            "visited": false,
+            "description": "SQL is critical for developing data-driven applications, where structured data is central to the application’s functionality...",
+            "link": "https://www.sql.org/"
+        },
+        {
+            "title": "Go for cloud-native development",
+            "id": "29",
+            "visited": false,
+            "description": "Go (or Golang) is a statically typed, compiled language designed for cloud-native development and building scalable, high-performance systems...",
+            "link": "https://golang.org/"
+        },
+        {
+            "title": "Go for microservices architecture",
+            "id": "30",
+            "visited": false,
+            "description": "Go is an ideal language for building microservices, where scalability and performance are essential...",
+            "link": "https://golang.org/"
+        },
+    
+        {
+            "title": "Go for efficient backend systems",
+            "id": "31",
+            "visited": false,
+            "description": "Go is designed to build fast and efficient backend systems, making it a go-to language for web services and cloud infrastructure...",
+            "link": "https://golang.org/"
+        },
+        {
+            "title": "Rust for system-level programming",
+            "id": "32",
+            "visited": false,
+            "description": "Rust is a systems programming language focused on safety, performance, and concurrency...",
+            "link": "https://www.rust-lang.org/"
+        },
+        {
+            "title": "Rust for performance-critical applications",
+            "id": "33",
+            "visited": false,
+            "description": "Rust is ideal for developing performance-critical applications where speed and memory efficiency are key concerns...",
+            "link": "https://www.rust-lang.org/"
+        },
+        {
+            "title": "Rust for web assembly and browser applications",
+            "id": "34",
+            "visited": false,
+            "description": "Rust’s ability to compile to WebAssembly (WASM) makes it an excellent choice for building fast, browser-based applications...",
+            "link": "https://www.rust-lang.org/"
+        },
+        {
+            "title": "JavaScript for full-stack web development",
+            "id": "35",
+            "visited": false,
+            "description": "JavaScript has become the go-to language for full-stack web development, enabling developers to use a single language for both front-end and back-end code...",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        },
+        {
+            "title": "JavaScript for real-time applications",
+            "id": "36",
+            "visited": false,
+            "description": "JavaScript is essential for building real-time applications that require instant updates and seamless communication between the client and server...",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        },
+        {
+            "title": "HTML5 for modern web structure",
+            "id": "37",
+            "visited": false,
+            "description": "HTML5 is the backbone of modern web development, providing the fundamental structure for web pages...",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+        },
+        {
+            "title": "HTML5 for interactive content",
+            "id": "38",
+            "visited": false,
+            "description": "HTML5 has revolutionized how interactive content is embedded into web pages...",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+        },
+        {
+            "title": "HTML5 for responsive design",
+            "id": "39",
+            "visited": false,
+            "description": "HTML5 is an essential component for building responsive websites that adapt to different screen sizes and devices...",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+        },
+        {
+            "title": "CSS3 for styling modern websites",
+            "id": "40",
+            "visited": false,
+            "description": "CSS3 is the latest version of the Cascading Style Sheets language and is used to style modern websites...",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+        },
+        {
+            "title": "CSS3 for responsive web design",
+            "id": "41",
+            "visited": false,
+            "description": "CSS3 has revolutionized responsive web design by introducing powerful layout techniques like Flexbox and CSS Grid...",
+            "link": "https://www.w3.org/Style/CSS/"
+        },
+        {
+            "title": "CSS3 for animations and transitions",
+            "id": "42",
+            "visited": false,
+            "description": "CSS3 brought animations and transitions to the forefront of web development...",
+            "link": "https://www.w3.org/Style/CSS/"
+        },
+        {
+            "title": "React for building user interfaces",
+            "id": "43",
+            "visited": false,
+            "description": "React is a JavaScript library for building fast and interactive user interfaces...",
+            "link": "https://react.dev/"
+        },
+        {
+            "title": "React for building dynamic web applications",
+            "id": "44",
+            "visited": false,
+            "description": "React excels in building dynamic web applications by providing a declarative approach...",
+            "link": "https://react.dev/"
+        },
+        {
+            "title": "React for mobile app development",
+            "id": "45",
+            "visited": false,
+            "description": "React Native, a framework built on top of React, enables developers to use JavaScript to build native mobile applications...",
+            "link": "https://reactnative.dev/"
+        },
+        {
+            "title": "Node.js for server-side JavaScript",
+            "id": "46",
+            "visited": false,
+            "description": "Node.js is a runtime environment that allows developers to run JavaScript on the server-side...",
+            "link": "https://nodejs.org/"
+        },
+        {
+            "title": "Node.js for building APIs",
+            "id": "47",
+            "visited": false,
+            "description": "Node.js is a great choice for building APIs due to its non-blocking I/O model and high scalability...",
+            "link": "https://nodejs.org/"
+        },
+        {
+            "title": "Vue.js for building user interfaces",
+            "id": "48",
+            "visited": false,
+            "description": "Vue.js is a progressive JavaScript framework used to build user interfaces and single-page applications...",
+            "link": "https://vuejs.org/"
+        },
+        {
+            "title": "Vue.js for building single-page applications",
+            "id": "49",
+            "visited": false,
+            "description": "Vue.js is a popular framework for building single-page applications (SPAs)...",
+            "link": "https://vuejs.org/"
+        },
+        {
+            "title": "Angular for building dynamic web applications",
+            "id": "50",
+            "visited": false,
+            "description": "Angular is a powerful framework for building dynamic, data-driven web applications...",
+            "link": "https://angular.io/"
+        },
+
+
+
+    
     {
         "title": "Angular for single-page applications",
         "id": "51",
@@ -334,5 +401,47 @@
         "id": "56",
         "visited": false,
         "description": "Ruby on Rails is a powerful web application framework written in Ruby, designed to make programming web applications easier and more productive. It follows the convention over configuration (CoC) principle, which allows developers to focus on building features rather than dealing with repetitive configuration. Rails provides a full stack of tools, including an ORM (ActiveRecord), routing, and a templating engine (ERB), making it easy to create dynamic web applications. Ruby on Rails is widely used for building web applications like e-commerce platforms, content management systems, and social networking sites."
+    },
+    {
+        "title": "Angular for single-page applications",
+        "id": "51",
+        "visited": false,
+        "description": "Angular is particularly well-suited for building single-page applications (SPAs)...",
+        "link": "https://angular.io/"
+    },
+    {
+        "title": "Django for web application development",
+        "id": "52",
+        "visited": false,
+        "description": "Django is a high-level Python web framework designed for rapid development and clean, pragmatic design...",
+        "link": "https://www.djangoproject.com/"
+    },
+    {
+        "title": "Django for building RESTful APIs",
+        "id": "53",
+        "visited": false,
+        "description": "Django is an excellent framework for building RESTful APIs, providing developers with tools to quickly build APIs...",
+        "link": "https://www.djangoproject.com/"
+    },
+    {
+        "title": "Flask for micro web applications",
+        "id": "54",
+        "visited": false,
+        "description": "Flask is a lightweight Python web framework designed for building simple, yet powerful web applications...",
+        "link": "https://flask.palletsprojects.com/"
+    },
+    {
+        "title": "Flask for building RESTful APIs",
+        "id": "55",
+        "visited": false,
+        "description": "Flask is commonly used to build lightweight and flexible RESTful APIs...",
+        "link": "https://flask.palletsprojects.com/"
+    },
+    {
+        "title": "Ruby on Rails for web development",
+        "id": "56",
+        "visited": false,
+        "description": "Ruby on Rails is a powerful web application framework written in Ruby...",
+        "link": "https://rubyonrails.org/"
     }
 ]

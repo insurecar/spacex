@@ -10,7 +10,11 @@ export const Content = () => {
     <ul className={styles.content}>
       {data?.map((item) => (
         <li key={item.id}>
-          <h3>{item.title}</h3>
+          <h3>
+            <a target="__blank" href={item.link}>
+              {item.title}
+            </a>
+          </h3>
           <div>{item.description}</div>
         </li>
       ))}
