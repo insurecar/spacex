@@ -1,8 +1,10 @@
 const express = require("express"); // Імпортуємо Express
 const app = express(); // Створюємо додаток Express
+const cors = require("cors");
 const queryController = require("./controllers/queryController");
 
 const PORT = 8000; // Встановлюємо порт
+app.use(cors());
 
 // Маршрут для головної сторінки
 app.get("/", (req, res) => {
