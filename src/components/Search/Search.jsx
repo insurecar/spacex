@@ -1,19 +1,22 @@
-import { useState, useRef, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { DropdownMenu } from "..";
 import { SearchIcon, DeleteIcon } from "../icons";
+import { useSelector, useDispatch } from "react-redux";
 import styles from "./Search.module.css";
+import { getQuery } from "../../store/actions/getQuery";
 
 import cn from "classnames";
 
 export const Search = () => {
   const [text, setText] = useState("");
   const [showDropdown, setShowDropdown] = useState(false);
-  const resultsRef = useRef(null);
-  console.log("SHOPDROPDOWN", showDropdown);
   const [results, setResults] = useState([]);
+  const dispatch = useDispatch();
 
   const handleInput = ({ target: { value } }) => {
     setText(() => value);
+
+    dispatch(getQuery());
   };
 
   const handleClearText = () => setText("");
@@ -30,30 +33,6 @@ export const Search = () => {
     }
   }, [text]);
 
-  useEffect(() => {
-    // Close results when clicking outside the results container
-    const handleClickOutside = (event) => {
-      if (resultsRef.current && !resultsRef.current.contains(event.target)) {
-        setShowDropdown(false);
-      }
-    };
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, []);
-
-  useEffect(() => {
-    fetch(`http://localhost:3000/searchQuery?q=${text}`)
-      .then((response) => response.json())
-      .then((data) => {
-        const filteredData = data.filter(item => item.title.toLowerCase().startsWith(text.toLowerCase()));
-        console.log(filteredData);
-        setResults(filteredData)
-      })
-      .catch((error) => console.error('Error fetching data:', error));
-  }, [text])
-
   return (
     <div className={styles.searchWrapper}>
       <button className={styles.search}>
@@ -69,7 +48,7 @@ export const Search = () => {
         </div>
         <div className={styles.navigation}></div>
       </button>
-      {showDropdown && <DropdownMenu ref={resultsRef} data={results} />}
+      {showDropdown && <DropdownMenu data={results} />}
     </div>
   );
 };
