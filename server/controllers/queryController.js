@@ -38,3 +38,15 @@ exports.visitedQuery = async (req, res) => {
     status: "ok",
   });
 };
+
+exports.getData = (req, res) => {
+  const data = JSON.parse(
+    fs.readFileSync(`${__dirname}/../data/queryData.json`, "utf-8")
+  );
+
+  const content = data.filter((item) => item.id === req.query.id);
+  res.status(200).json({
+    status: "asdjahdh",
+    data: content,
+  });
+};

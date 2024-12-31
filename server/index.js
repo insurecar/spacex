@@ -17,6 +17,8 @@ router
   .get(queryController.getQuery)
   .post(queryController.visitedQuery);
 
+router.route("/api/v1/content").get(queryController.getData);
+
 app.use(router);
 
 app.listen(PORT, () => {
