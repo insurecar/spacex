@@ -1,19 +1,24 @@
-const express = require("express"); // Імпортуємо Express
-const app = express(); // Створюємо додаток Express
+const express = require("express");
+const app = express();
 const cors = require("cors");
 const queryController = require("./controllers/queryController");
+const router = express.Router();
 
-const PORT = 8000; // Встановлюємо порт
+const PORT = 8000;
 app.use(cors());
+app.use(express.json());
 
-// Маршрут для головної сторінки
 app.get("/", (req, res) => {
   res.send("Welcome to Express.js!");
 });
 
-app.use("/api/v1", queryController.getQuery);
+router
+  .route("/api/v1")
+  .get(queryController.getQuery)
+  .post(queryController.visitedQuery);
 
-// Запускаємо сервер
+app.use(router);
+
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:8000`);
 });

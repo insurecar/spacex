@@ -4,7 +4,6 @@ exports.getQuery = async (req, res) => {
   const data = JSON.parse(
     fs.readFileSync(`${__dirname}/../data/queryData.json`, "utf-8")
   );
-  console.log(req.query);
 
   if (Object.keys(req.query).length === 0) {
     return res.status(404).json({
@@ -12,11 +11,30 @@ exports.getQuery = async (req, res) => {
     });
   }
 
-  const filteredQuery = data?.query.filter((item) =>
+  const filteredQuery = data?.filter((item) =>
     item.title.toLowerCase().startsWith(req.query.title.toLowerCase())
   );
   res.status(200).json({
     status: "success",
     data: filteredQuery,
+  });
+};
+
+exports.visitedQuery = async (req, res) => {
+  const data = await JSON.parse(
+    fs.readFileSync(`${__dirname}/../data/queryData.json`, "utf-8")
+  );
+
+  const updatedData = await data.map((item) =>
+    +item.id === +req.body.id ? { ...item, visited: true } : item
+  );
+  await fs.writeFileSync(
+    `${__dirname}/../data/queryData.json`,
+    JSON.stringify(updatedData),
+    "utf-8"
+  );
+
+  res.status(200).json({
+    status: "ok",
   });
 };

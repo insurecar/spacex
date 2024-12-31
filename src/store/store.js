@@ -5,4 +5,4 @@ import { listOfHistoryReducer } from "./reducers";
 
 const rootReducer = combineReducers({ listOfHistoryReducer });
 
-export const store = createStore(rootReducer, applyMiddleware(thunk, lg));
+export const store = createStore(rootReducer, applyMiddleware(thunk));

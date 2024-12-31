@@ -1,4 +1,4 @@
-import { getQueryCreator } from "../actions/getQuery";
+import { getQueryCreator, visitedQueryCreator } from "../actions/getQuery";
 
 const initialState = {
   history: [],
@@ -9,6 +9,10 @@ export const listOfHistoryReducer = (state = initialState, actions) => {
     case getQueryCreator:
       return {
         history: actions.data.data,
+      };
+    case visitedQueryCreator:
+      return {
+        message: actions.message,
       };
     default:
       console.log(1231);

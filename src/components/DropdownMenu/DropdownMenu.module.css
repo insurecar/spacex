@@ -23,7 +23,7 @@
 }
 
 .dropdownItem:hover {
-  background: green;
+  background: lightgreen;
   border-radius: 20px;
 }
 

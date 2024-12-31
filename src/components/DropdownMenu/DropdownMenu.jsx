@@ -1,18 +1,33 @@
 import styles from "./DropdownMenu.module.css";
 import { SearchIcon, ClockIcon } from "../icons";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { visitedQuery } from "../../store/actions/getQuery";
 
-export const DropdownMenu = (data) => {
-  const data1 = useSelector(
+export const DropdownMenu = ({
+  ref: { current },
+  text,
+  setText,
+  showDropdown,
+}) => {
+  const data = useSelector(
     ({ listOfHistoryReducer }) => listOfHistoryReducer?.history
   );
-  console.log("sjadfhdsghf", data1);
+
+  const dispatch = useDispatch();
+
+  const handleItem = (id) => {
+    dispatch(visitedQuery(id));
+  };
 
   return (
-    <ul className={styles.dropdownMenu}>
-      {data1.length &&
-        data1?.map((item) => (
-          <li className={styles.dropdownItem} key={item.id}>
+    <ul className={styles.dropdownMenu} ref={current}>
+      {data?.length !== 0 &&
+        data?.map((item) => (
+          <li
+            className={styles.dropdownItem}
+            key={item.id}
+            onClick={() => handleItem(item.id)}
+          >
             <div className={styles.searchItem}>
               {item.visited ? <SearchIcon /> : <ClockIcon />}
             </div>

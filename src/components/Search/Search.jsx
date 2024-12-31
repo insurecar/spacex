@@ -1,7 +1,7 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { DropdownMenu } from "..";
 import { SearchIcon, DeleteIcon } from "../icons";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import styles from "./Search.module.css";
 import { getQuery } from "../../store/actions/getQuery";
 
@@ -10,6 +10,11 @@ import cn from "classnames";
 export const Search = () => {
   const [text, setText] = useState("");
   const [showDropdown, setShowDropdown] = useState(false);
+  const data = useSelector(
+    ({ listOfHistoryReducer }) => listOfHistoryReducer?.history
+  );
+  const resultsRef = useRef(null);
+  const WrapperRef = useRef(null);
   const dispatch = useDispatch();
 
   const handleInput = ({ target: { value } }) => {
@@ -25,15 +30,24 @@ export const Search = () => {
   });
 
   useEffect(() => {
-    if (!text.trim()) {
-      setShowDropdown(false);
-    } else {
-      setShowDropdown(true);
-    }
-  }, [text]);
+    const shouldShowDropdown = text.trim() && data?.length > 0;
+    setShowDropdown(shouldShowDropdown);
+  }, [text, data]);
+
+  useEffect(() => {
+    const handleClose = (event) => {
+      if (WrapperRef.current && !WrapperRef.current.contains(event.target)) {
+        setShowDropdown(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClose);
+    return () => {
+      document.removeEventListener("mousedown", handleClose);
+    };
+  }, []);
 
   return (
-    <div className={styles.searchWrapper}>
+    <div className={styles.searchWrapper} ref={WrapperRef}>
       <button className={styles.search}>
         <div className={styles.icon}>
           <SearchIcon />
@@ -47,7 +61,14 @@ export const Search = () => {
         </div>
         <div className={styles.navigation}></div>
       </button>
-      {showDropdown && <DropdownMenu />}
+      {showDropdown && (
+        <DropdownMenu
+          ref={resultsRef}
+          text={text}
+          setText={setText}
+          showDropdown={showDropdown}
+        />
+      )}
     </div>
   );
 };
