@@ -5,11 +5,13 @@ export const visitedQueryCreator = "VISITED_QUERY";
 
 export const getItemCreator = "GET_ITEM";
 
+const api = axios.create({
+  baseURL: "http://127.0.0.1:8000/api/v1",
+});
+
 export const getQuery = (value) => async (dispatch) => {
   try {
-    const response = await axios.get(
-      `http://127.0.0.1:8000/api/v1?title=${value}`
-    );
+    const response = await api.get(`?title=${value}`);
     const { data } = response;
 
     dispatch({
@@ -23,7 +25,7 @@ export const getQuery = (value) => async (dispatch) => {
 
 export const visitedQuery = (id) => async (dispatch) => {
   try {
-    const response = await axios.post(`http://127.0.0.1:8000/api/v1`, { id });
+    const response = await api.post(``, { id });
     const { data: idUpdated } = response;
 
     dispatch({
