@@ -36,3 +36,19 @@ export const visitedQuery = (id) => async (dispatch) => {
     console.log("Error sending a data", err);
   }
 };
+
+export const getContent = (id) => async (dispatch) => {
+  try {
+    const {
+      data: { data },
+    } = await api.get(`/content?id=${id}`);
+    console.log("%c content", "background: green; padding: 40px", data);
+
+    dispatch({
+      type: getItemCreator,
+      data,
+    });
+  } catch (err) {
+    console.log("There is no conent", err);
+  }
+};

@@ -1,7 +1,7 @@
 import styles from "./DropdownMenu.module.css";
 import { SearchIcon, ClockIcon } from "../icons";
 import { useDispatch, useSelector } from "react-redux";
-import { visitedQuery } from "../../store/actions/getQuery";
+import { visitedQuery,getContent } from "../../store/actions/getQuery";
 
 export const DropdownMenu = ({
   ref: { current },
@@ -17,6 +17,7 @@ export const DropdownMenu = ({
 
   const handleItem = (id) => {
     dispatch(visitedQuery(id));
+    dispatch(getContent(id))
   };
 
   return (

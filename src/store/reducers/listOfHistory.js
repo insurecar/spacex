@@ -15,7 +15,6 @@ export const listOfHistoryReducer = (state = initialState, actions) => {
         message: actions.message,
       };
     default:
-      console.log(1231);
       return state;
   }
 };
