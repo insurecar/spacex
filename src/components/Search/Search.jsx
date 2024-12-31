@@ -15,8 +15,9 @@ export const Search = () => {
 
   const handleInput = ({ target: { value } }) => {
     setText(() => value);
+    console.log("asdasdasd");
 
-    dispatch(getQuery());
+    dispatch(getQuery(value));
   };
 
   const handleClearText = () => setText("");

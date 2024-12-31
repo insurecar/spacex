@@ -2,17 +2,19 @@ import axios from "axios";
 
 export const getQueryCreator = "GET_QUERY";
 
-export const getQuery = () => (dispatch) => {
-  axios
-    .get(
-      "https://67727eceee76b92dd4927b07.mockapi.io/query?filter=id=1&id=2&id=4&id=8"
-    )
-    .then(({ data }) => {
-      console.log(data);
+export const getQuery = (value) => async (dispatch) => {
+  try {
+    const response = await axios.get(
+      `http://127.0.0.1:8000/api/v1?title=${value}`
+    );
+    const data = response.data;
+    console.log(data);
 
-      dispatch({
-        type: getQueryCreator,
-        data,
-      });
+    dispatch({
+      type: getQueryCreator,
+      data,
     });
+  } catch (error) {
+    console.log("Error fetching data: ", error);
+  }
 };
