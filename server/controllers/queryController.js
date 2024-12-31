@@ -41,20 +41,13 @@ exports.visitedQuery = async (req, res) => {
 
 exports.getData = (req, res) => {
   const data = JSON.parse(
-<<<<<<< Updated upstream
-    fs.readFileSync(`${__dirname}/../data/queryData.json`, "utf-8")
-  );
-
-  const content = data.filter((item) => item.id === req.query.id);
-=======
     fs.readFileSync(`${__dirname}/../data/description.json`, "utf-8")
   );
 
   const content = data.filter((item) => item.id === req.query.id);
 
   console.log(content);
-  
->>>>>>> Stashed changes
+
   res.status(200).json({
     status: "asdjahdh",
     data: content,

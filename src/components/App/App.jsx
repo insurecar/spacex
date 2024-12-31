@@ -1,6 +1,6 @@
 import React from "react";
 import { store } from "../../store/store";
-import { Search } from "..";
+import { Search, Content } from "..";
 
 export const App = () => {
   console.log(store.getState());
@@ -8,6 +8,7 @@ export const App = () => {
   return (
     <div>
       <Search />
+      <Content />
     </div>
   );
 };

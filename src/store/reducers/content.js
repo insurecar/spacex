@@ -7,9 +7,7 @@ const initialState = {
 export const contentReducer = (state = initialState, actions) => {
   switch (actions.type) {
     case getItemCreator:
-      console.log("++++++___________", actions.content);
-
-      return { content: actions.content };
+      return { content: actions.data };
     default:
       return state;
   }
